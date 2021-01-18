@@ -1,5 +1,5 @@
 // pages/blog/[id].js
-import styles from '../../styles/Home.module.scss'
+import styles from '../../styles/Home.module.css'
 
 export default function BlogId({ blog }) {
     return (
