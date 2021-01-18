@@ -1,5 +1,5 @@
 // pages/blog/[id].js
-import styles from '../../styles/Home.module.css'
+import styles from '../../styles/Home.module.scss'
 
 export default function BlogId({ blog }) {
     return (
@@ -14,7 +14,7 @@ export default function BlogId({ blog }) {
         />
       </main>
     );
-  }
+}
   
   // 静的生成のためのパスを指定します
   export const getStaticPaths = async () => {
